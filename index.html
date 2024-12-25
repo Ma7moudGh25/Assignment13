@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقع الألعاب</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .games-list {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+    .game-card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 150px;
+      cursor: pointer;
+      text-align: center;
+    }
+    .details {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar" id="navbar"></div>
+  <div class="games-list" id="gamesList"></div>
+  <div class="details" id="details"></div>
+
+  <script src="JS/main.js"></script>
+</body>
+</html>
+
